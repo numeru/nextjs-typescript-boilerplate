@@ -3,6 +3,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
 *::-webkit-scrollbar {
 	display: none;
 	width: 0;
@@ -37,6 +38,16 @@ button {
 
 textarea {
 	resize: none;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
 }
 
 .a11y-hidden {
